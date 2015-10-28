@@ -1,0 +1,27 @@
+!2 As developer 
+!2 when I push to release 
+!2 then the developer version is bumped to a production version
+
+|script|dk.topdanmark.maven.plugin.ReleaseCandidateVersionFixture|
+
+|script                        |
+|Given version  |1.0.1-SNAPSHOT|
+|when I bump                   |
+|then version is|1.0.1         |
+
+|script                       |
+|Given version |1.0.1-SNAPSHOT|
+|when I bump                  |
+|and version exists           |
+|then reject   |version exists|
+|and version is|1.0.1-SNAPSHOT|
+
+
+|script                           |
+|Given version |1.2.0             |
+|when I bump                      |
+|and artifact not found           |
+|then reject   |artifact not found|
+|and version is|1.2.0             |
+
+

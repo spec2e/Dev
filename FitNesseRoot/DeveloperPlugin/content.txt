@@ -1,0 +1,10 @@
+!contents -R2 -g -p -f -h
+
+
+This site describes the testcases for the CD maven developer plugin
+
+
+
+!define TEST_SYSTEM {slim}
+!path ../Dev/target/test-classes
+!path ../Dev/target/classes
