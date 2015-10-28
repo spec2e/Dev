@@ -3,27 +3,22 @@ package dk.topdanmark.maven.plugin;
 /**
  * Created by zapp on 28/10/15.
  */
-public class DeveloperPluginFixture {
-
+public class DeveloperVersionFixture extends VersionFixture {
 
     private String version;
 
-    public DeveloperPluginFixture() {
-
-    }
-
+    @Override
     public void putVersion(String version) {
-        System.out.println("version = " + version);
-
         this.version = version;
     }
 
-
+    @Override
     public void bumpVersion() {
-        version += "bumped";
+        this.version += "-SNAPSHOT";
     }
 
+    @Override
     public String bumpedVersion() {
-        return version;
+        return this.version;
     }
 }

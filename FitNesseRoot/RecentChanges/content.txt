@@ -1,4 +1,6 @@
-|DeveloperPlugin.DeveloperPlugin.SetUp||10:49:51 Wed, Oct 28, 2015|
+|DeveloperPlugin.DeveloperPlugin.SetUp||12:48:35 Wed, Oct 28, 2015|
+|DeveloperPlugin.DeveloperPlugin.BumpReleaseCandidateVersion||12:46:13 Wed, Oct 28, 2015|
+|DeveloperPlugin.DeveloperPlugin.BumpDevelopmentVersion||12:20:06 Wed, Oct 28, 2015|
 |DeveloperPlugin.DeveloperPlugin.BumpDeveloperVersion||10:38:06 Wed, Oct 28, 2015|
 |DeveloperPlugin||10:34:22 Wed, Oct 28, 2015|
 |DeveloperPlugin.DeveloperPlugin||10:29:24 Wed, Oct 28, 2015|
