@@ -1,0 +1,24 @@
+!2 As a developer
+!2 When I want to increment the current version with snapshot
+!2 The version is incremented and postfixed with snapshot
+
+|script|dk.topdanmark.maven.plugin.DeveloperVersionFixture|
+
+|script                        |
+|Given version  |1.0           |
+|when I bump                   |
+|then version is|1.0.1-SNAPSHOT|
+
+
+|script                        |
+|Given version  |1.0.1-SNAPSHOT|
+|when I bump                   |
+|then version is|1.0.1-SNAPSHOT|
+
+
+|script                        |
+|Given version  |1.0.1         |
+|when I bump                   |
+|then version is|1.0.2-SNAPSHOT|
+
+
