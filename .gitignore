@@ -4,7 +4,7 @@
 *.ear
 *.zip
 
-AccountHolder.iml
+*.iml
 
 .idea
 
